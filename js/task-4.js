@@ -1,4 +1,4 @@
-function getShipingCost(country) { 
+function getShippingCost(country) { 
     let message;
 
     const countryChina = "China";
@@ -23,6 +23,7 @@ function getShipingCost(country) {
         default:
             message = "Sorry, there is no delivery to your country";
     }
+    return message;
 }
 
 
